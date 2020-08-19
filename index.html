@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<!-- Use it like any other HTML element -->
-<model-viewer src="https://hi-go1201.github.io/model-viewer_Test/imaizumisan3.glb"
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>WebAR</title>
+  </head>
+  <body>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- Use it like any other HTML element -->
+    <model-viewer src="https://hi-go1201.github.io/model-viewer_Test/imaizumisan3.glb"
                   ios-src="https://hi-go1201.github.io/model-viewer_Test/imaizumisan.usdz"
                   style="width: 80%; height: 800px;"
                   alt="A 3D model of human"
                   shadow-intensity="1"
                   camera-controls
                   auto-rotate ar>
-</model-viewer>
-</body>
+    </model-viewer>
+    </body>
 </html>
